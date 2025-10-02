@@ -257,9 +257,10 @@ License
 This project is licensed under the MIT License.
 
 Instructions for Usage
-
+```
 Run the Algorithm:
 Navigate to the target/classes directory.
 Run the benchmark using: java cli.BenchmarkRunner <array size>.
 Run Unit Tests:
 Execute mvn test to run all unit tests for correctness validation.
+```
