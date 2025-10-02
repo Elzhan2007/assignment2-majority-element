@@ -88,7 +88,6 @@ Code Snippets
 
 MajorityElement.java
 ```
-java
 package algorithms;
 
 public class MajorityElement {
@@ -130,13 +129,12 @@ public class MajorityElement {
             return Integer.MIN_VALUE;  // No majority element
         }
     }
-} ```
+}
+```
 
 PerformanceTracker.java
 ```
-java
 package metrics;
-
 public class PerformanceTracker {
     public static int comparisons = 0;
     public static int swaps = 0;
@@ -170,7 +168,8 @@ public class PerformanceTracker {
         swaps = 0;
         arrayAccesses = 0;
     }
-} ```
+}
+```
 BenchmarkRunner.java
 ```
 java
@@ -204,7 +203,8 @@ public class BenchmarkRunner {
         
         PerformanceTracker.resetMetrics(); // Reset metrics for the next run
     }
-} ```
+}
+```
 
 MajorityElementTest.java (JUnit 5 Tests)
 ```
