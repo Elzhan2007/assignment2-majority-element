@@ -34,9 +34,8 @@ assignment2-majority-element/
 ├── README.md # Project documentation
 └── pom.xml # Maven project configuration
 
-MajorityElement.java
-
-''' java
+MajorityElement.java 
+``` java
 package algorithms;
 public class MajorityElement {
 
@@ -78,10 +77,10 @@ public class MajorityElement {
         }
     }
 }
-'''
+```
 
 PerformanceTracker.java
-''' java
+``` java
 package metrics;
 
 public class PerformanceTracker {
@@ -118,9 +117,9 @@ public class PerformanceTracker {
         arrayAccesses = 0;
     }
 }
-''' 
+``` 
 BenchmarkRunner.java
-''' java
+``` java
 package cli;
 
 import algorithms.MajorityElement;
@@ -152,8 +151,10 @@ public class BenchmarkRunner {
         PerformanceTracker.resetMetrics(); // Reset metrics for the next run
     }
 }
-''' java
+```
+
 MajorityElementTest.java (JUnit 5 Tests)
+```
 package algorithms;
 
 import org.junit.jupiter.api.Test;
@@ -197,7 +198,7 @@ public class MajorityElementTest {
         assertEquals(Integer.MIN_VALUE, MajorityElement.majorityElementOrNone(arr));
     }
 }
-'''
+```
 
 
 ### **Explanation of Sections in the README:**
