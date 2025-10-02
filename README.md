@@ -19,7 +19,7 @@ To run this project, you need:
 - **Maven** for building the project and running tests
 
 ## Project Structure
-
+```
 assignment2-majority-element/
 ├── src/main/java/
 │ ├── algorithms/MajorityElement.java # Main algorithm implementation
@@ -32,7 +32,7 @@ assignment2-majority-element/
 │ └── performance-plots/ # Folder for performance plot images
 ├── README.md # Project documentation
 └── pom.xml # Maven project configuration
-
+```
 
 ## Installation
 
