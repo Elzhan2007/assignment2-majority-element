@@ -1,4 +1,3 @@
-# assignment2-majority-element
 # Majority Element Algorithm
 
 ## Overview
@@ -11,13 +10,6 @@ This project implements an algorithm to find the **majority element** in an arra
 - **Metrics Tracking**: Tracks performance metrics like comparisons, swaps, and array accesses.
 - **Benchmarking**: Command-line interface (CLI) for testing the algorithm with different input sizes.
 - **Unit Testing**: Comprehensive unit tests covering edge cases such as empty arrays, single-element arrays, and arrays without a majority element.
-
-## Requirements
-
-To run this project, you need:
-
-- **Java 8** or higher
-- **Maven** for building the project and running tests
 
 ## Project Structure
 
